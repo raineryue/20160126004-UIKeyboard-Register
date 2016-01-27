@@ -15,6 +15,8 @@
 		D50E14481C574E0F0008EF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50E14461C574E0F0008EF51 /* LaunchScreen.storyboard */; };
 		D50E14531C574E0F0008EF51 /* _0160126004_UIKeyboard_RegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E14521C574E0F0008EF51 /* _0160126004_UIKeyboard_RegisterTests.m */; };
 		D50E145E1C574E0F0008EF51 /* _0160126004_UIKeyboard_RegisterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E145D1C574E0F0008EF51 /* _0160126004_UIKeyboard_RegisterUITests.m */; };
+		D50E146F1C5759430008EF51 /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50E146E1C5759430008EF51 /* KeyboardView.m */; };
+		D50E14711C57595D0008EF51 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50E14701C57595D0008EF51 /* KeyboardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D50E14591C574E0F0008EF51 /* 20160126004-UIKeyboard-RegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160126004-UIKeyboard-RegisterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50E145D1C574E0F0008EF51 /* _0160126004_UIKeyboard_RegisterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160126004_UIKeyboard_RegisterUITests.m; sourceTree = "<group>"; };
 		D50E145F1C574E0F0008EF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50E146D1C5759430008EF51 /* KeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		D50E146E1C5759430008EF51 /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
+		D50E14701C57595D0008EF51 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				D50E143E1C574E0F0008EF51 /* ViewController.h */,
 				D50E143F1C574E0F0008EF51 /* ViewController.m */,
 				D50E14411C574E0F0008EF51 /* Main.storyboard */,
+				D50E146D1C5759430008EF51 /* KeyboardView.h */,
+				D50E146E1C5759430008EF51 /* KeyboardView.m */,
+				D50E14701C57595D0008EF51 /* KeyboardView.xib */,
 				D50E14441C574E0F0008EF51 /* Assets.xcassets */,
 				D50E14461C574E0F0008EF51 /* LaunchScreen.storyboard */,
 				D50E14491C574E0F0008EF51 /* Info.plist */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50E14481C574E0F0008EF51 /* LaunchScreen.storyboard in Resources */,
+				D50E14711C57595D0008EF51 /* KeyboardView.xib in Resources */,
 				D50E14451C574E0F0008EF51 /* Assets.xcassets in Resources */,
 				D50E14431C574E0F0008EF51 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50E14401C574E0F0008EF51 /* ViewController.m in Sources */,
+				D50E146F1C5759430008EF51 /* KeyboardView.m in Sources */,
 				D50E143D1C574E0F0008EF51 /* AppDelegate.m in Sources */,
 				D50E143A1C574E0F0008EF51 /* main.m in Sources */,
 			);
