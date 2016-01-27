@@ -24,6 +24,9 @@ typedef enum {
 @end
 
 @interface KeyboardView : UIView
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *previousBarButtonItem;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *nextBarButtonItem;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *doneBarButtonItem;
 
 @property (nonatomic, weak) id<KeyboardViewDelegate> delegate;
 

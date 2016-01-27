@@ -130,6 +130,16 @@
 - (void)keyboardView:(KeyboardView *)keyboardView didToolBarButtonItemType:(ToolBarButtonItemType)toolBarButtonItemType {
     NSInteger currentIndex = [self getCurrentResponderIndex];
     
+    if (currentIndex == 0)
+        keyboardView.previousBarButtonItem.enabled = NO;
+    else
+        keyboardView.previousBarButtonItem.enabled = YES;
+    
+    if (currentIndex == self.textFieldBackViewArray.count)
+        keyboardView.nextBarButtonItem.enabled = NO;
+    else
+        keyboardView.nextBarButtonItem.enabled = YES;
+    
     // 上一个
     if (ToolBarButtonItemTypePrev == toolBarButtonItemType) {
         [self showProviousTextFiledWithCurrentIndex:currentIndex];

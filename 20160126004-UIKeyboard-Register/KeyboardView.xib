@@ -36,6 +36,11 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="doneBarButtonItem" destination="98P-4r-Fyt" id="ggq-ZW-O6L"/>
+                <outlet property="nextBarButtonItem" destination="YwO-80-O9M" id="jA1-bx-kFJ"/>
+                <outlet property="previousBarButtonItem" destination="2Uc-Ie-LPm" id="OeB-eR-bf5"/>
+            </connections>
             <point key="canvasLocation" x="-42" y="238"/>
         </view>
     </objects>
